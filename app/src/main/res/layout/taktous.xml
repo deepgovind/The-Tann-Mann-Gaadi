@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="top|center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="←"
+			android:gravity="center"
+			android:textSize="48sp"
+			android:textColor="#FF0BB6F6"
+			android:textStyle="bold"
+			android:onClick="back"
+			android:paddingBottom="10dp"
+			android:paddingRight="10dp"
+			android:paddingLeft="10dp"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="How you can help"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:padding="15dp"
+			android:textStyle="bold"
+			android:textColor="@color/colorApp"
+			android:gravity="top|center"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="4dp"
+		android:layout_margin="10dp"
+		android:background="@color/colorApp"/>
+
+	<ScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="15dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="We believe that no contribution is small and each one of us has the ability to give back to the community in some measure. You have the ability to be part of The Change"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#FF000000"/>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:layout_marginTop="10dp"
+				android:padding="10dp"
+				android:background="#FF767575">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="YOUR TIME"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textColor="#FFFFFFFF"
+					android:textSize="30sp"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Talk to us if you can spare"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="some of your time or expertise"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="for volunteering for us"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:layout_marginTop="10dp"
+				android:padding="10dp"
+				android:background="#FF767575">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="DONATE"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textColor="#FFFFFFFF"
+					android:textSize="30sp"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Financial, Resources,"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Technology or any form of"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="support will be welcome"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:layout_marginTop="10dp"
+				android:padding="10dp"
+				android:background="#FF767575">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="PARTNERSHIP"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textColor="#FFFFFFFF"
+					android:textSize="30sp"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Liaisons with agencies, experts,"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="CSR Initiatives, Partnerships"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="with other NPOs or Corporates"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:layout_marginTop="10dp"
+				android:padding="10dp"
+				android:background="#FF767575">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="ADVOCATE US"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textColor="#FFFFFFFF"
+					android:textSize="30sp"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Talk About Us"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Talk For Us"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="With those who can contribute"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="5dp"
+					android:textColor="#FFFFFFFF"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

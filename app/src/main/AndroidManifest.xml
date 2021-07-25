@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dg.thetannmanngaadi">
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="false">
+
+        <activity
+            android:name=".MainActivity"
+			android:configChanges = "keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name">
+            <intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeActivity" android:configChanges = "keyboardHidden|orientation|screenSize"/>
+		<activity android:name=".Login" android:configChanges = "keyboardHidden|orientation|screenSize"/>
+		<activity android:name=".Signup" android:configChanges = "keyboardHidden|orientation|screenSize"/>
+		<activity android:name=".OurSolution" android:configChanges = "keyboardHidden|orientation|screenSize"/>
+		<activity android:name=".TalkToUs" android:configChanges = "keyboardHidden|orientation|screenSize"/>
+		<activity android:name=".Event" android:configChanges = "keyboardHidden|orientation|screenSize"/>
+		<activity android:name=".ContectUs" android:configChanges = "keyboardHidden|orientation|screenSize"/>
+		
+			
+			
+      <meta-data
+          android:name="android.max_aspect"
+          android:value="4.0"/>
+
+    </application>
+	
+</manifest>

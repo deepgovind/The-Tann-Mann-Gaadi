@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="←"
+			android:gravity="center"
+			android:textSize="48sp"
+			android:textColor="#FF0BB6F6"
+			android:textStyle="bold"
+			android:onClick="back"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingBottom="10dp"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="Login"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:padding="10dp"
+			android:gravity="center"
+			android:textSize="29sp"
+			android:textStyle="bold"
+			android:textColor="@color/colorApp"/>
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="30dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Enter your password :"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:padding="5dp"
+				android:textColor="#FF000000"/>
+
+			<EditText
+				android:id="@+id/password"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignBottom="@+id/textView2"
+				android:layout_alignLeft="@+id/username"
+				android:layout_alignParentRight="true"
+				android:inputType="textPassword"
+				android:hint="Password"
+				android:layout_marginLeft="10dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Enter Username :"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:padding="5dp"
+				android:textColor="#FF000000"
+				android:layout_marginTop="10dp"/>
+
+			<EditText
+				android:id="@+id/username"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignBaseline="@+id/textView1"
+				android:layout_alignBottom="@+id/textView1"
+				android:layout_alignParentRight="true"
+				android:hint="Username"
+				android:layout_marginLeft="10dp">
+
+				<requestFocus/>
+
+			</EditText>
+
+			<RelativeLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp">
+
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Login"
+					android:layout_alignParentRight="true"
+					android:onClick="Login"/>
+
+			</RelativeLayout>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Error"
+				android:layout_margin="10dp"
+				android:gravity="center"
+				android:textColor="#FFEF0606"
+				android:id="@+id/loginTextViewErr"
+				android:visibility="gone"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

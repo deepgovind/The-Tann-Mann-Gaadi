@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center"
+	android:gravity="top|center"
+	android:background="@color/colorApp"
+	android:padding="15dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="◾Provide basic sanitation products"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textStyle="bold"
+		android:textSize="31sp"
+		android:layout_marginTop="51dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="◾ Availability of clean potable water"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textStyle="bold"
+		android:textSize="31sp"
+		android:layout_marginTop="40dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="◾ Health Kiosk for first aid &amp; generic testing center"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textStyle="bold"
+		android:textSize="31sp"
+		android:layout_marginTop="40dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="◾ Eco-friendly project solutions"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textStyle="bold"
+		android:textSize="31sp"
+		android:layout_marginTop="40dp"/>
+
+</LinearLayout>
+

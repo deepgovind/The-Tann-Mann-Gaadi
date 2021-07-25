@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center"
+	android:gravity="top|center"
+	android:background="@color/colorApp"
+	android:padding="10dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="◾State of the art toilets available on wheels at strategic locations"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textStyle="bold"
+		android:textSize="31sp"
+		android:layout_marginTop="51dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="◾Safe facility for women, children, differently abled &amp; the elderly"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textStyle="bold"
+		android:textSize="31sp"
+		android:layout_marginTop="51dp"/>
+
+</LinearLayout>
+
